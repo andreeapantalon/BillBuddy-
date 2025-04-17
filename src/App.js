@@ -8,6 +8,7 @@ import ConnectBank from './pages/ConnectBank';
 import Goals from './pages/Goals';
 import Dashboard from './pages/dashboard';  // lowercase 'd'
 import Layout from './components/Layout';
+import OpenAccount from './pages/OpenAccount';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
   <Route path="/connect-bank" element={<Layout><ConnectBank /></Layout>} />
   <Route path="/goals" element={<Layout><Goals /></Layout>} />
   <Route path="/dashboard" element={<Layout><Dashboard /></Layout>} />
+  <Route path="/open-account" element={<OpenAccount />} />
 </Routes>
 
     </Router>

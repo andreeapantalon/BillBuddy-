@@ -16,7 +16,7 @@ function GetStarted() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   const steps = [
-    { title: 'Create Your Account', desc: 'Sign up for free or log in to your existing BillBuddy+ account.', path: '/signup' },
+    { title: 'Create Your Account', desc: 'Sign up for free or log in to your existing BillBuddy+ account.', path: '/open-account' },
     { title: 'Connect Your Bank Accounts', desc: 'Securely link your financial accounts to start tracking.', path: '/connect-bank' },
     { title: 'Set Financial Goals', desc: 'Tell us what you want to achieve — we’ll help you get there.', path: '/goals' },
     { title: 'Explore Your Dashboard', desc: 'Check your bill reminders, insights, and forecasts.', path: '/dashboard' },
